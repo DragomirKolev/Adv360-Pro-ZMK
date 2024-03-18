@@ -1,5 +1,5 @@
 # Changelog
-Here's all notable changes and commits to both the configuration repo and the base ZMK that the config repo builds against.
+Here's all notable changess and commits to both the configuration repo and the base ZMK that the config repo builds against.
 
 Many thanks to all those who have submitted issues and pull requests to make this firmware better!
 ## Config repo
