@@ -1,8 +1,32 @@
+macro_window_fulls: macro_window_fulls{
+compatible = "zmk,behavior-macro";
+label = "macro_window_fulls";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp ENTER>;
+};
+macro_window_right: macro_window_right{
+compatible = "zmk,behavior-macro";
+label = "macro_window_right";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp RIGHT_ARROW>;
+};
+macro_window_left: macro_window_left{
+compatible = "zmk,behavior-macro";
+label = "macro_window_left";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp LEFT_ARROW>;
+};
+macro_fonction_const: macro_fonction_const{
+compatible = "zmk,behavior-macro";
+label = "macro_fonction_const";
+#binding-cells = <0>;
+bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp T>, <&kp SPACE>, <&kp N>, <&kp SPACE>, <&kp EQUAL>, <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>, <&kp SPACE>, <&kp EQUAL>, <&kp GREATER_THAN>, <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>, <&kp SEMICOLON>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>;
+};
 macro_function: macro_function{
 compatible = "zmk,behavior-macro";
 label = "macro_function";
 #binding-cells = <0>;
-bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>, <&kp EQUAL>, <&kp GREATER_THAN>, <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>, <&kp SEMICOLON>;
+bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>, <&kp SPACE>, <&kp EQUAL>, <&kp GREATER_THAN>, <&kp SPACE>, <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
